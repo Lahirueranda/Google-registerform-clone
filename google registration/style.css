@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Merriweather+Sans:wght@300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Maincontanor{
+    display: inline-flex;
+    width: 57%;
+    height: 60%;
+    border: 1px solid #b3b3b3;
+    margin-left: 22%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.subcontanor{
+    width: 57%;
+    height: 500px;
+    margin: 40px 0px 40px 35px;
+}
+.Mainimage{
+    width: 43%;
+    height: 500px;
+    margin: 40px 35px 40px 0;
+}
+.Mainimage img{
+    height: 240px;
+    width: 240px;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+.Mainimage span{
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+    color: #474444;
+}
+.subcontanor img{
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.subcontanor .heading{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #575555;
+}
+
+.Maincontanor .subcontanor .name,
+.password{
+    display: inline-block;
+}
+
+.Maincontanor .subcontanor .namelist,
+.passwordlist{
+    width: 180px;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: 1.9px solid #999999;
+    margin-top: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Maincontanor .subcontanor .emaillist{
+    outline: none;
+    margin-top: 25px;
+    width: 375px;
+    height: 35px;  
+    border-radius: 5px;
+    border: 1.9px solid #999999;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Maincontanor .subcontanor input:focus{
+    border: 2px solid #1f52f9;
+}
+
+.Maincontanor .subcontanor 
+.namelabel,
+.usernamelabel,
+.passwordlabel{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -180px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #585757;
+    pointer-events: none;
+    transition: 0.2s all;
+}
+
+.Maincontanor .subcontanor .usernamelabel{
+    margin-top: 35px !important;
+    margin-left: -370px !important;
+}
+
+.Maincontanor .subcontanor .passwordlabel{
+    margin-top: 70px !important;
+    margin-left: -180px !important;
+}
+
+.Maincontanor .subcontanor input:focus ~ .namelabel{
+    color: #1a73e8;
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.Maincontanor .subcontanor .gmailsnippet{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 34px;
+    margin-left: -100px;
+    color: #3f3e3e;
+}
+
+.Maincontanor .subcontanor .instruction{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    color: #666666;
+}
+
+.Maincontanor .subcontanor .subheading{
+    position: absolute;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:  #1a73e8;
+    font-weight: 600;
+}
+
+.Maincontanor .subcontanor .passwordlist{
+    margin-top: 60px;
+}
+
+.Maincontanor .subcontanor .passwordinstruction{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    color: #666666;
+}
+
+.Maincontanor .subcontanor .check{
+    height: 18px;
+    width: 18px;
+    margin-top: 20px;
+}
+
+.Maincontanor .subcontanor .checkboxtext{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.Maincontanor .subcontanor a{
+    position: absolute;
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color:  #1a73e8;
+    font-weight: 600;
+}
+.Maincontanor .subcontanor .Nextbutton{
+    height: 35px;
+    width: 80px;
+    background-color: #1a73e8;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 305px;
+}
+
+
